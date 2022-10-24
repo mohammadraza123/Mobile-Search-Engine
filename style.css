@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 0px 7px 1px gainsboro;
+    background-color: whitesmoke;
+}
+
+#userInput {
+    padding: 12px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 400px;
+}
+
+.first-div {
+    padding: 12px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#Search {
+
+    padding: 12px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.navigation>button:active {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.container1>img {
+    width: 230px;
+    padding: 20px;
+    margin-right: 70px;
+
+}
+
+#Mobiles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1270px;
+    font-size: 28px;
+    padding: 90px;
+    justify-content: space-between;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container1 {
+
+    padding: 15px;
+    margin-bottom: 5px;
+
+}
+
+.card {
+    background-color: whitesmoke;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    #Mobiles {
+        display: grid;
+    }
+
+    #userInput {
+        width: 100%;
+        margin-left: -8px;
+    }
+
+    .card {
+        width: 100%;
+        margin-left: -75px;
+    }
+
+    .container {
+        overflow-x: hidden;
+    }
+}
